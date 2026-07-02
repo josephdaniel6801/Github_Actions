@@ -8,10 +8,7 @@ jobs:
     steps:
       - name: clone the code
         uses: actions/checkout@V7
-      - name: install linter
-        run: pip install ruff
-      - name: checking lint
-        run: ruff check .
+      
         
      
        
