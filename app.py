@@ -12,3 +12,9 @@ def hello_world():
 @app.route('/health')
 def health():
     return 'Server is up and running'
+
+def() :
+        if 
+    for i in range (1,10)
+        print i
+    
