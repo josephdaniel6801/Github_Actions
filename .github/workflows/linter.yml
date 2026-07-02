@@ -9,7 +9,7 @@ jobs:
       - name: clone the code
         uses: actions/checkout@v4
       - name: install linter
-        run: pip isntall ruff
+        run: pip install ruff
       - name: checking ruff
         run: ruff check .
         
